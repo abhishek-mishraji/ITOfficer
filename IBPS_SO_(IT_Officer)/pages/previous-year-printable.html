@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Printable IBPS SO IT Officer previous paper style practice sheet with answer key." />
+    <title>Printable Practice Sheet | IBPS SO IT Officer</title>
+    <style>
+      :root {
+        --text: #111827;
+        --muted: #4b5563;
+        --line: #d1d5db;
+        --accent: #0f766e;
+        --bg: #ffffff;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Arial, sans-serif;
+        color: var(--text);
+        background: var(--bg);
+      }
+      .sheet {
+        width: min(100% - 2rem, 900px);
+        margin: 1.5rem auto 2rem;
+      }
+      .topbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+      }
+      .actions {
+        display: flex;
+        gap: 0.6rem;
+        flex-wrap: wrap;
+      }
+      .button {
+        border: 1px solid var(--line);
+        background: #f8fafc;
+        color: var(--text);
+        padding: 0.55rem 0.9rem;
+        border-radius: 999px;
+        font-weight: 600;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .button.primary {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: #fff;
+      }
+      .card {
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+      }
+      h1, h2, h3 {
+        margin: 0 0 0.6rem;
+        line-height: 1.2;
+      }
+      h1 { font-size: 1.5rem; }
+      h2 { font-size: 1.2rem; margin-top: 0.6rem; }
+      .meta {
+        color: var(--muted);
+        font-size: 0.95rem;
+        margin: 0;
+      }
+      .info-list {
+        margin: 0.6rem 0 0;
+        padding-left: 1.2rem;
+      }
+      .q-list {
+        margin: 0.75rem 0 0;
+        padding-left: 1.3rem;
+      }
+      .q-list li {
+        margin-bottom: 0.55rem;
+        line-height: 1.5;
+      }
+      .answer-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.6rem;
+      }
+      .answer-grid p {
+        margin: 0;
+        font-size: 0.95rem;
+      }
+      .muted {
+        color: var(--muted);
+      }
+      .page-break {
+        page-break-before: always;
+      }
+
+      @media print {
+        @page { size: A4; margin: 14mm; }
+        .topbar { display: none; }
+        .sheet { width: 100%; margin: 0; }
+        .card { break-inside: avoid; }
+        a { color: #000; text-decoration: none; }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="sheet">
+      <div class="topbar">
+        <strong>IBPS SO IT Officer Printable Sheet</strong>
+        <div class="actions">
+          <button class="button primary" type="button" onclick="window.print()">Print this sheet</button>
+          <a class="button" href="previous-year-papers.html">Back to Previous Papers</a>
+        </div>
+      </div>
+
+      <section class="card">
+        <h1>IBPS SO IT Officer - Previous Paper Style Practice Sheet</h1>
+        <p class="meta">Type: Practice set in IBPS pattern style | Focus: IT Professional Knowledge + objective speed practice</p>
+        <ul class="info-list">
+          <li>Total questions: 30</li>
+          <li>Suggested time: 25 minutes</li>
+          <li>Marking simulation: keep 0.25 negative marking in analysis mode</li>
+          <li>Use OMR-style attempt order: easy -> medium -> difficult</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Section A: Professional Knowledge (1-20)</h2>
+        <ol class="q-list">
+          <li>Which normal form ensures that every determinant is a candidate key?</li>
+          <li>Which SQL join returns all rows when there is a match in either table?</li>
+          <li>What is the default port number of HTTPS?</li>
+          <li>In OS, what is thrashing primarily related to?</li>
+          <li>Which data structure is typically used for BFS traversal?</li>
+          <li>What does ACID property "I" stand for?</li>
+          <li>Which protocol is used to assign IP addresses dynamically?</li>
+          <li>In Java, which keyword prevents method overriding?</li>
+          <li>Which RAID level provides striping with parity?</li>
+          <li>Which command is used to check open network connections in many systems?</li>
+          <li>What is the worst-case time complexity of binary search?</li>
+          <li>Which layer of the OSI model handles end-to-end communication?</li>
+          <li>Which scheduling algorithm is preemptive by design among common CPU algorithms?</li>
+          <li>What is the purpose of a firewall in a network?</li>
+          <li>In DBMS, what is a foreign key used for?</li>
+          <li>Which cryptography method uses one public and one private key?</li>
+          <li>In software testing, what does UAT stand for?</li>
+          <li>What does CAP theorem discuss in distributed systems?</li>
+          <li>Which command removes all rows from a table but keeps structure?</li>
+          <li>What is the primary role of DNS?</li>
+        </ol>
+      </section>
+
+      <section class="card">
+        <h2>Section B: Aptitude Blend (21-30)</h2>
+        <ol class="q-list" start="21">
+          <li>A process can complete a task in 12 days and another in 18 days. Together, how many days?</li>
+          <li>If SIMPLE is coded as TJNQMF, then BANK is coded as?</li>
+          <li>Find next: 3, 7, 15, 31, ?</li>
+          <li>If the ratio of boys to girls is 5:4 and total is 180, girls are?</li>
+          <li>Choose the correct synonym of "Prudent".</li>
+          <li>A sum at 10% simple interest becomes 1.5 times in how many years?</li>
+          <li>Statement: All servers are machines. Some machines are virtual. Conclusion?</li>
+          <li>Find odd one out: Router, Switch, Firewall, Keyboard.</li>
+          <li>A train crosses a pole in 12 sec at 54 km/h. Length of train?</li>
+          <li>Choose correct error-free sentence among options you prepare from standard grammar rules.</li>
+        </ol>
+      </section>
+
+      <section class="card page-break">
+        <h2>Answer Key</h2>
+        <div class="answer-grid">
+          <p>1) BCNF</p><p>16) Asymmetric encryption</p>
+          <p>2) Full Outer Join</p><p>17) User Acceptance Testing</p>
+          <p>3) 443</p><p>18) Consistency, Availability, Partition tolerance trade-off</p>
+          <p>4) Excessive paging</p><p>19) TRUNCATE</p>
+          <p>5) Queue</p><p>20) Name to IP resolution</p>
+          <p>6) Isolation</p><p>21) 7.2 days</p>
+          <p>7) DHCP</p><p>22) CBOL</p>
+          <p>8) final</p><p>23) 63</p>
+          <p>9) RAID 5</p><p>24) 80</p>
+          <p>10) netstat</p><p>25) Wise/Careful</p>
+          <p>11) O(log n)</p><p>26) 5 years</p>
+          <p>12) Transport layer</p><p>27) Some virtual machines can be servers</p>
+          <p>13) Round Robin</p><p>28) Keyboard</p>
+          <p>14) Filter/monitor traffic</p><p>29) 180 meters</p>
+          <p>15) Referential integrity</p><p>30) Rule-based grammar validation</p>
+        </div>
+      </section>
+
+      <section class="card">
+        <h3>Self-analysis template</h3>
+        <p class="muted">Record after each attempt:</p>
+        <ul class="info-list">
+          <li>Attempted: ____ / 30</li>
+          <li>Correct: ____</li>
+          <li>Incorrect: ____</li>
+          <li>Estimated score: ____</li>
+          <li>Weak topic tags: ____________________</li>
+          <li>Retry date: ____________________</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
